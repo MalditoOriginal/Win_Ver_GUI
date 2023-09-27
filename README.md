@@ -30,16 +30,17 @@ Once the project is built, you can run the application by executing the generate
 
 This will launch the Windows Version Information GUI.
 
-Usage
+## Usage
 The GUI application will display the following Windows version information:
 
 Windows Version (e.g., 6.2)
 Build Number (e.g., 9200)
 Service Pack (if applicable)
-License
+
+## License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-Acknowledgments
+## Acknowledgments
 This project uses the WinAPI to create a graphical user interface.
 It provides a simple example of creating a Windows application in C.
 Feel free to modify and extend this project according to your needs. If you have any questions or encounter issues, please don't hesitate to reach out.
