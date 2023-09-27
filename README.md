@@ -30,7 +30,8 @@ Once the project is built, you can run the application by executing the generate
 
 This will launch the Windows Version Information GUI.
 
-## Usage
+
+## Usage ##
 The GUI application will display the following Windows version information:
 
 Windows Version (e.g., 6.2)
