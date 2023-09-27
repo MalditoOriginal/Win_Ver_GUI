@@ -24,8 +24,10 @@ To build the project, follow these steps:
 ## Running the Application
 
 Once the project is built, you can run the application by executing the generated `win_ver_gui.exe`:
+
 PowerShell:
-~.\win_ver_gui.exe
+
+'.\win_ver_gui.exe'
 
 ## Usage
 The GUI application will display the following Windows version information:
