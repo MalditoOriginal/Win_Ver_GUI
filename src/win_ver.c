@@ -33,11 +33,11 @@ HWND InitializeWindow(HINSTANCE hInstance) {
 }
 
 void DisplayVersionInfo(HWND hwnd) {
-    OSVERSIONINFOEX osvi;
-    ZeroMemory(&osvi, sizeof(OSVERSIONINFOEX));
-    osvi.dwOSVersionInfoSize = sizeof(OSVERSIONINFOEX);
+    OSVERSIONINFOEXA osvi;
+    ZeroMemory(&osvi, sizeof(OSVERSIONINFOEXA));
+    osvi.dwOSVersionInfoSize = sizeof(OSVERSIONINFOEXA);
 
-    if (GetVersionExA((LPOSVERSIONINFO)&osvi)) {
+    if (GetVersionExA((LPOSVERSIONINFOA)&osvi)) {
         TCHAR buffer[256];
         _stprintf(buffer, _T("Windows Version: %d.%d\nBuild Number: %ld\nService Pack: %s"), osvi.dwMajorVersion, osvi.dwMinorVersion, osvi.dwBuildNumber, osvi.szCSDVersion);
         MessageBox(hwnd, buffer, _T("Version Info"), MB_ICONINFORMATION | MB_OK);
@@ -45,6 +45,7 @@ void DisplayVersionInfo(HWND hwnd) {
         HandleError(hwnd, _T("Failed to retrieve OS version information."));
     }
 }
+
 
 void HandleError(HWND hwnd, LPCTSTR errMsg) {
     TCHAR msg[256];

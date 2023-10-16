@@ -3,9 +3,9 @@
 LRESULT CALLBACK WndProc(HWND hwnd, UINT msg, WPARAM wParam, LPARAM lParam) {
     switch (msg) {
         case WM_CLOSE:
-        if (MessageBox(hwnd, _T"Do you want to exit?", _T"Confirmation", MB_ICONQUESTION | MB_YESNO)) {
-            DestroyWindow(hwnd);
-        }
+            if (MessageBox(hwnd, _T("Do you want to exit?"), _T("Confirmation"), MB_ICONQUESTION | MB_YESNO) == IDYES) {
+                DestroyWindow(hwnd);
+            }
             break;
         case WM_DESTROY:
             PostQuitMessage(0);

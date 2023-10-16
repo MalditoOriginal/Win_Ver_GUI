@@ -1,20 +1,17 @@
-cmake_minimum_required(VERSION 3.0)
+cmake_minimum_required(VERSION 3.28.0-rc1)
 
 project(WindowsVersionInfo)
-
-# Set C++ standard (you can change this to your desired version)
-set(CMAKE_C_STANDARD 11)
 
 # Set the path to the C compiler
 set(CMAKE_C_COMPILER "C:/MinGW/bin/gcc.exe")
 
 # Add your source files
 set(SOURCE_FILES
-    win_main.C
-    WndProc.C
+    win_main.c
+    WndProc.c
     win_ver.h
-    win_ver.C
+    win_ver.c
 )
 
 # Create the executable
-add_executable(WindowsVersionInfo ${SOURCE_FILES})
+add_executable(WinInfoVer ${SOURCE_FILES})
