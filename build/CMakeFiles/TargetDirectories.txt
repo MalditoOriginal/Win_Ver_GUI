@@ -1,0 +1,3 @@
+C:/Users/Alex/Documents/Win_Ver_GUI/build/CMakeFiles/WinInfoVer.dir
+C:/Users/Alex/Documents/Win_Ver_GUI/build/CMakeFiles/edit_cache.dir
+C:/Users/Alex/Documents/Win_Ver_GUI/build/CMakeFiles/rebuild_cache.dir

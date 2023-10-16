@@ -7,10 +7,10 @@ set(CMAKE_C_COMPILER "C:/MinGW/bin/gcc.exe")
 
 # Add your source files
 set(SOURCE_FILES
-    win_main.c
-    WndProc.c
+    main.c
     win_ver.h
-    win_ver.c
+    logic.c
+    gui.c
 )
 
 # Create the executable
