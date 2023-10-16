@@ -1,5 +1,7 @@
 # Compiler and compiler flags
-CC = gcc
+CC = i686-w64-mingw32-gcc  # This should be the MinGW compiler executable
+
+# Compiler flags for MinGW
 CFLAGS = -Wall
 
 # Executable name
