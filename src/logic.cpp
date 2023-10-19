@@ -1,5 +1,15 @@
 #include "global.h"
 
+TCHAR* FormatServicePackInfo(const OSVERSIONINFOEXA& osvi) {
+    TCHAR buffer[256];
+    if (osvi.szCSDVersion[0] != '\0') {
+        _stprintf(buffer, _T("Service Pack: %s"), osvi.szCSDVersion);
+    } else {
+        _stprintf(buffer, _T("Service Pack: None"));
+    }
+    return _tcsdup(buffer);
+}
+
 void DisplayVersionInfo(HWND hwnd) {
     OSVERSIONINFOEXA osvi;
     ZeroMemory(&osvi, sizeof(OSVERSIONINFOEXA));
@@ -7,19 +17,23 @@ void DisplayVersionInfo(HWND hwnd) {
 
     if (GetVersionExA((LPOSVERSIONINFOA)&osvi)) {
         TCHAR buffer[256];
-        _stprintf(buffer, _T("Windows Version: %d.%d\nBuild Number: %ld\nService Pack: %s"), osvi.dwMajorVersion, osvi.dwMinorVersion, osvi.dwBuildNumber, osvi.szCSDVersion);
+        _stprintf(buffer, _T("Windows Version: %d.%d\nBuild Number: %ld"), osvi.dwMajorVersion, osvi.dwMinorVersion, osvi.dwBuildNumber);
 
-    /* Determine Windows Edition */
-    LPCTSTR edition = GetWindowsEdition(osvi.wProductType);
-     _stprintf(buffer, _T("%s\nEdition: %s"), buffer, edition);
+        LPCTSTR edition = GetWindowsEdition(osvi.wProductType);
+        _stprintf(buffer, _T("%s\nEdition: %s"), buffer, edition);
+
+        TCHAR* service_pack = FormatServicePackInfo(osvi);
+        _tcscat(buffer, _T("\n")); // Use _tcscat as a safer alternative
+        _tcscat(buffer, service_pack);
+        free(service_pack);
 
         MessageBox(hwnd, buffer, _T("Version Info"), MB_ICONINFORMATION | MB_OK);
-
-
     } else {
         HandleError(hwnd, _T("Failed to retrieve OS version information."));
     }
 }
+
+
 
 LPCTSTR GetWindowsEdition(WORD productType) {
     LPCTSTR edition = _T("Unknown");
@@ -32,10 +46,4 @@ LPCTSTR GetWindowsEdition(WORD productType) {
         edition = _T("Domain Controller");
     }
     return edition;
-}
-
-void HandleError(HWND hwnd, LPCTSTR errMsg) {
-    TCHAR msg[256];
-    _stprintf(msg, _T("Error: %s"), errMsg);
-    MessageBox(hwnd, msg, _T("Error"), MB_ICONERROR | MB_OK);
 }

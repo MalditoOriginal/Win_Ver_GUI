@@ -3,6 +3,9 @@
 
 #define UNICODE
 #define _UNICODE
+#define ARRAY_SIZE(arr) (sizeof(arr) / sizeof(arr[0]))
+
+#include <winnt.h>
 #include <windows.h>
 #include <tchar.h>
 

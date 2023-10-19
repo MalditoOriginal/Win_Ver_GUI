@@ -13,6 +13,7 @@ set(SOURCE_FILES
     global.h
     logic.cpp
     gui.cpp
+    error_handler.cpp
 )
 
 # Create the executable
