@@ -8,10 +8,10 @@
 
 // Core prototypes
 LRESULT CALLBACK WndProc(HWND hwnd, UINT msg, WPARAM wParam, LPARAM lParam);
-LRESULT CALLBACK WndProc(HWND hwnd, UINT msg, WPARAM wParam, LPARAM lParam);
 
 // Logic prototypes
 HWND InitializeWindow(HINSTANCE hInstance);
+LPCTSTR GetWindowsEdition(WORD productType);
 void HandleError(HWND hwnd, LPCTSTR errMsg);
 
 // GUI prototype
