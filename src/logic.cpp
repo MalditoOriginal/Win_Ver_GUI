@@ -1,4 +1,4 @@
-#include "win_ver.h"
+#include "global.h"
 
 void DisplayVersionInfo(HWND hwnd) {
     OSVERSIONINFOEXA osvi;

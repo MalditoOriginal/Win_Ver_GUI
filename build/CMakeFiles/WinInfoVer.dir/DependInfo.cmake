@@ -8,9 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/Alex/Documents/Win_Ver_GUI/src/gui.c" "CMakeFiles/WinInfoVer.dir/gui.c.obj" "gcc" "CMakeFiles/WinInfoVer.dir/gui.c.obj.d"
-  "C:/Users/Alex/Documents/Win_Ver_GUI/src/logic.c" "CMakeFiles/WinInfoVer.dir/logic.c.obj" "gcc" "CMakeFiles/WinInfoVer.dir/logic.c.obj.d"
-  "C:/Users/Alex/Documents/Win_Ver_GUI/src/main.c" "CMakeFiles/WinInfoVer.dir/main.c.obj" "gcc" "CMakeFiles/WinInfoVer.dir/main.c.obj.d"
+  "C:/Users/Alex/Documents/Win_Ver_GUI/src/gui.cpp" "CMakeFiles/WinInfoVer.dir/gui.cpp.obj" "gcc" "CMakeFiles/WinInfoVer.dir/gui.cpp.obj.d"
+  "C:/Users/Alex/Documents/Win_Ver_GUI/src/logic.cpp" "CMakeFiles/WinInfoVer.dir/logic.cpp.obj" "gcc" "CMakeFiles/WinInfoVer.dir/logic.cpp.obj.d"
+  "C:/Users/Alex/Documents/Win_Ver_GUI/src/main.cpp" "CMakeFiles/WinInfoVer.dir/main.cpp.obj" "gcc" "CMakeFiles/WinInfoVer.dir/main.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

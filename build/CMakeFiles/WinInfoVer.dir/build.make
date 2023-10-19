@@ -68,65 +68,65 @@ include CMakeFiles/WinInfoVer.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/WinInfoVer.dir/flags.make
 
-CMakeFiles/WinInfoVer.dir/main.c.obj: CMakeFiles/WinInfoVer.dir/flags.make
-CMakeFiles/WinInfoVer.dir/main.c.obj: C:/Users/Alex/Documents/Win_Ver_GUI/src/main.c
-CMakeFiles/WinInfoVer.dir/main.c.obj: CMakeFiles/WinInfoVer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Alex\Documents\Win_Ver_GUI\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/WinInfoVer.dir/main.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/WinInfoVer.dir/main.c.obj -MF CMakeFiles\WinInfoVer.dir\main.c.obj.d -o CMakeFiles\WinInfoVer.dir\main.c.obj -c C:\Users\Alex\Documents\Win_Ver_GUI\src\main.c
+CMakeFiles/WinInfoVer.dir/main.cpp.obj: CMakeFiles/WinInfoVer.dir/flags.make
+CMakeFiles/WinInfoVer.dir/main.cpp.obj: C:/Users/Alex/Documents/Win_Ver_GUI/src/main.cpp
+CMakeFiles/WinInfoVer.dir/main.cpp.obj: CMakeFiles/WinInfoVer.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Alex\Documents\Win_Ver_GUI\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/WinInfoVer.dir/main.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/WinInfoVer.dir/main.cpp.obj -MF CMakeFiles\WinInfoVer.dir\main.cpp.obj.d -o CMakeFiles\WinInfoVer.dir\main.cpp.obj -c C:\Users\Alex\Documents\Win_Ver_GUI\src\main.cpp
 
-CMakeFiles/WinInfoVer.dir/main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/WinInfoVer.dir/main.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Alex\Documents\Win_Ver_GUI\src\main.c > CMakeFiles\WinInfoVer.dir\main.c.i
+CMakeFiles/WinInfoVer.dir/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/WinInfoVer.dir/main.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Alex\Documents\Win_Ver_GUI\src\main.cpp > CMakeFiles\WinInfoVer.dir\main.cpp.i
 
-CMakeFiles/WinInfoVer.dir/main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/WinInfoVer.dir/main.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Alex\Documents\Win_Ver_GUI\src\main.c -o CMakeFiles\WinInfoVer.dir\main.c.s
+CMakeFiles/WinInfoVer.dir/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/WinInfoVer.dir/main.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Alex\Documents\Win_Ver_GUI\src\main.cpp -o CMakeFiles\WinInfoVer.dir\main.cpp.s
 
-CMakeFiles/WinInfoVer.dir/logic.c.obj: CMakeFiles/WinInfoVer.dir/flags.make
-CMakeFiles/WinInfoVer.dir/logic.c.obj: C:/Users/Alex/Documents/Win_Ver_GUI/src/logic.c
-CMakeFiles/WinInfoVer.dir/logic.c.obj: CMakeFiles/WinInfoVer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Alex\Documents\Win_Ver_GUI\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/WinInfoVer.dir/logic.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/WinInfoVer.dir/logic.c.obj -MF CMakeFiles\WinInfoVer.dir\logic.c.obj.d -o CMakeFiles\WinInfoVer.dir\logic.c.obj -c C:\Users\Alex\Documents\Win_Ver_GUI\src\logic.c
+CMakeFiles/WinInfoVer.dir/logic.cpp.obj: CMakeFiles/WinInfoVer.dir/flags.make
+CMakeFiles/WinInfoVer.dir/logic.cpp.obj: C:/Users/Alex/Documents/Win_Ver_GUI/src/logic.cpp
+CMakeFiles/WinInfoVer.dir/logic.cpp.obj: CMakeFiles/WinInfoVer.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Alex\Documents\Win_Ver_GUI\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/WinInfoVer.dir/logic.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/WinInfoVer.dir/logic.cpp.obj -MF CMakeFiles\WinInfoVer.dir\logic.cpp.obj.d -o CMakeFiles\WinInfoVer.dir\logic.cpp.obj -c C:\Users\Alex\Documents\Win_Ver_GUI\src\logic.cpp
 
-CMakeFiles/WinInfoVer.dir/logic.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/WinInfoVer.dir/logic.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Alex\Documents\Win_Ver_GUI\src\logic.c > CMakeFiles\WinInfoVer.dir\logic.c.i
+CMakeFiles/WinInfoVer.dir/logic.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/WinInfoVer.dir/logic.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Alex\Documents\Win_Ver_GUI\src\logic.cpp > CMakeFiles\WinInfoVer.dir\logic.cpp.i
 
-CMakeFiles/WinInfoVer.dir/logic.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/WinInfoVer.dir/logic.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Alex\Documents\Win_Ver_GUI\src\logic.c -o CMakeFiles\WinInfoVer.dir\logic.c.s
+CMakeFiles/WinInfoVer.dir/logic.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/WinInfoVer.dir/logic.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Alex\Documents\Win_Ver_GUI\src\logic.cpp -o CMakeFiles\WinInfoVer.dir\logic.cpp.s
 
-CMakeFiles/WinInfoVer.dir/gui.c.obj: CMakeFiles/WinInfoVer.dir/flags.make
-CMakeFiles/WinInfoVer.dir/gui.c.obj: C:/Users/Alex/Documents/Win_Ver_GUI/src/gui.c
-CMakeFiles/WinInfoVer.dir/gui.c.obj: CMakeFiles/WinInfoVer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Alex\Documents\Win_Ver_GUI\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/WinInfoVer.dir/gui.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/WinInfoVer.dir/gui.c.obj -MF CMakeFiles\WinInfoVer.dir\gui.c.obj.d -o CMakeFiles\WinInfoVer.dir\gui.c.obj -c C:\Users\Alex\Documents\Win_Ver_GUI\src\gui.c
+CMakeFiles/WinInfoVer.dir/gui.cpp.obj: CMakeFiles/WinInfoVer.dir/flags.make
+CMakeFiles/WinInfoVer.dir/gui.cpp.obj: C:/Users/Alex/Documents/Win_Ver_GUI/src/gui.cpp
+CMakeFiles/WinInfoVer.dir/gui.cpp.obj: CMakeFiles/WinInfoVer.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Alex\Documents\Win_Ver_GUI\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/WinInfoVer.dir/gui.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/WinInfoVer.dir/gui.cpp.obj -MF CMakeFiles\WinInfoVer.dir\gui.cpp.obj.d -o CMakeFiles\WinInfoVer.dir\gui.cpp.obj -c C:\Users\Alex\Documents\Win_Ver_GUI\src\gui.cpp
 
-CMakeFiles/WinInfoVer.dir/gui.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/WinInfoVer.dir/gui.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Alex\Documents\Win_Ver_GUI\src\gui.c > CMakeFiles\WinInfoVer.dir\gui.c.i
+CMakeFiles/WinInfoVer.dir/gui.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/WinInfoVer.dir/gui.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Alex\Documents\Win_Ver_GUI\src\gui.cpp > CMakeFiles\WinInfoVer.dir\gui.cpp.i
 
-CMakeFiles/WinInfoVer.dir/gui.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/WinInfoVer.dir/gui.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Alex\Documents\Win_Ver_GUI\src\gui.c -o CMakeFiles\WinInfoVer.dir\gui.c.s
+CMakeFiles/WinInfoVer.dir/gui.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/WinInfoVer.dir/gui.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Alex\Documents\Win_Ver_GUI\src\gui.cpp -o CMakeFiles\WinInfoVer.dir\gui.cpp.s
 
 # Object files for target WinInfoVer
 WinInfoVer_OBJECTS = \
-"CMakeFiles/WinInfoVer.dir/main.c.obj" \
-"CMakeFiles/WinInfoVer.dir/logic.c.obj" \
-"CMakeFiles/WinInfoVer.dir/gui.c.obj"
+"CMakeFiles/WinInfoVer.dir/main.cpp.obj" \
+"CMakeFiles/WinInfoVer.dir/logic.cpp.obj" \
+"CMakeFiles/WinInfoVer.dir/gui.cpp.obj"
 
 # External object files for target WinInfoVer
 WinInfoVer_EXTERNAL_OBJECTS =
 
-WinInfoVer.exe: CMakeFiles/WinInfoVer.dir/main.c.obj
-WinInfoVer.exe: CMakeFiles/WinInfoVer.dir/logic.c.obj
-WinInfoVer.exe: CMakeFiles/WinInfoVer.dir/gui.c.obj
+WinInfoVer.exe: CMakeFiles/WinInfoVer.dir/main.cpp.obj
+WinInfoVer.exe: CMakeFiles/WinInfoVer.dir/logic.cpp.obj
+WinInfoVer.exe: CMakeFiles/WinInfoVer.dir/gui.cpp.obj
 WinInfoVer.exe: CMakeFiles/WinInfoVer.dir/build.make
 WinInfoVer.exe: CMakeFiles/WinInfoVer.dir/linkLibs.rsp
 WinInfoVer.exe: CMakeFiles/WinInfoVer.dir/objects1.rsp
 WinInfoVer.exe: CMakeFiles/WinInfoVer.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\Alex\Documents\Win_Ver_GUI\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable WinInfoVer.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\Alex\Documents\Win_Ver_GUI\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable WinInfoVer.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\WinInfoVer.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

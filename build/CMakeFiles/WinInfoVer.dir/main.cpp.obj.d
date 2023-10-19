@@ -1,6 +1,6 @@
-CMakeFiles/WinInfoVer.dir/main.c.obj: \
- C:\Users\Alex\Documents\Win_Ver_GUI\src\main.c \
- C:\Users\Alex\Documents\Win_Ver_GUI\src\win_ver.h \
+CMakeFiles/WinInfoVer.dir/main.cpp.obj: \
+ C:\Users\Alex\Documents\Win_Ver_GUI\src\main.cpp \
+ C:\Users\Alex\Documents\Win_Ver_GUI\src\global.h \
  c:\mingw\include\windows.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\stdarg.h \
  c:\mingw\include\windef.h c:\mingw\include\w32api.h \
@@ -32,6 +32,11 @@ CMakeFiles/WinInfoVer.dir/main.c.obj: \
  c:\mingw\include\sys\bsdtypes.h c:\mingw\include\sys\time.h \
  c:\mingw\include\nspapi.h c:\mingw\include\wtypes.h \
  c:\mingw\include\ole2.h c:\mingw\include\objbase.h \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\stdlib.h \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\cstdlib \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\mingw32\bits\c++config.h \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\mingw32\bits\os_defines.h \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\mingw32\bits\cpu_defines.h \
  c:\mingw\include\stdlib.h c:\mingw\include\objidl.h \
  c:\mingw\include\cguid.h c:\mingw\include\olectlid.h \
  c:\mingw\include\oleauto.h c:\mingw\include\oaidl.h \

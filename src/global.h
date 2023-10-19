@@ -1,14 +1,10 @@
-#ifndef WIN_VER_H
-#define WIN_VER_H
+#ifndef GLOBAL_H
+#define GLOBAL_H
 
 #define UNICODE
 #define _UNICODE
 #include <windows.h>
 #include <tchar.h>
-#include <winuser.h>
-
-// Global variable to store the window handle
-HWND hwnd;
 
 // Core prototypes
 LRESULT CALLBACK WndProc(HWND hwnd, UINT msg, WPARAM wParam, LPARAM lParam);

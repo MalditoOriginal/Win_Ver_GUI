@@ -128,77 +128,77 @@ WinInfoVer/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\WinInfoVer.dir\build.make CMakeFiles/WinInfoVer.dir/build
 .PHONY : WinInfoVer/fast
 
-gui.obj: gui.c.obj
+gui.obj: gui.cpp.obj
 .PHONY : gui.obj
 
 # target to build an object file
-gui.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WinInfoVer.dir\build.make CMakeFiles/WinInfoVer.dir/gui.c.obj
-.PHONY : gui.c.obj
+gui.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WinInfoVer.dir\build.make CMakeFiles/WinInfoVer.dir/gui.cpp.obj
+.PHONY : gui.cpp.obj
 
-gui.i: gui.c.i
+gui.i: gui.cpp.i
 .PHONY : gui.i
 
 # target to preprocess a source file
-gui.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WinInfoVer.dir\build.make CMakeFiles/WinInfoVer.dir/gui.c.i
-.PHONY : gui.c.i
+gui.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WinInfoVer.dir\build.make CMakeFiles/WinInfoVer.dir/gui.cpp.i
+.PHONY : gui.cpp.i
 
-gui.s: gui.c.s
+gui.s: gui.cpp.s
 .PHONY : gui.s
 
 # target to generate assembly for a file
-gui.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WinInfoVer.dir\build.make CMakeFiles/WinInfoVer.dir/gui.c.s
-.PHONY : gui.c.s
+gui.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WinInfoVer.dir\build.make CMakeFiles/WinInfoVer.dir/gui.cpp.s
+.PHONY : gui.cpp.s
 
-logic.obj: logic.c.obj
+logic.obj: logic.cpp.obj
 .PHONY : logic.obj
 
 # target to build an object file
-logic.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WinInfoVer.dir\build.make CMakeFiles/WinInfoVer.dir/logic.c.obj
-.PHONY : logic.c.obj
+logic.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WinInfoVer.dir\build.make CMakeFiles/WinInfoVer.dir/logic.cpp.obj
+.PHONY : logic.cpp.obj
 
-logic.i: logic.c.i
+logic.i: logic.cpp.i
 .PHONY : logic.i
 
 # target to preprocess a source file
-logic.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WinInfoVer.dir\build.make CMakeFiles/WinInfoVer.dir/logic.c.i
-.PHONY : logic.c.i
+logic.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WinInfoVer.dir\build.make CMakeFiles/WinInfoVer.dir/logic.cpp.i
+.PHONY : logic.cpp.i
 
-logic.s: logic.c.s
+logic.s: logic.cpp.s
 .PHONY : logic.s
 
 # target to generate assembly for a file
-logic.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WinInfoVer.dir\build.make CMakeFiles/WinInfoVer.dir/logic.c.s
-.PHONY : logic.c.s
+logic.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WinInfoVer.dir\build.make CMakeFiles/WinInfoVer.dir/logic.cpp.s
+.PHONY : logic.cpp.s
 
-main.obj: main.c.obj
+main.obj: main.cpp.obj
 .PHONY : main.obj
 
 # target to build an object file
-main.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WinInfoVer.dir\build.make CMakeFiles/WinInfoVer.dir/main.c.obj
-.PHONY : main.c.obj
+main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WinInfoVer.dir\build.make CMakeFiles/WinInfoVer.dir/main.cpp.obj
+.PHONY : main.cpp.obj
 
-main.i: main.c.i
+main.i: main.cpp.i
 .PHONY : main.i
 
 # target to preprocess a source file
-main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WinInfoVer.dir\build.make CMakeFiles/WinInfoVer.dir/main.c.i
-.PHONY : main.c.i
+main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WinInfoVer.dir\build.make CMakeFiles/WinInfoVer.dir/main.cpp.i
+.PHONY : main.cpp.i
 
-main.s: main.c.s
+main.s: main.cpp.s
 .PHONY : main.s
 
 # target to generate assembly for a file
-main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WinInfoVer.dir\build.make CMakeFiles/WinInfoVer.dir/main.c.s
-.PHONY : main.c.s
+main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WinInfoVer.dir\build.make CMakeFiles/WinInfoVer.dir/main.cpp.s
+.PHONY : main.cpp.s
 
 # Help Target
 help:
